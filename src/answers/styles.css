@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 12px 0px 12px 0px;
+}
+.navbar-div {
+  padding-left: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.navbar-search input {
+  padding: 5px;
+  font-size: medium;
+  background-color: lightgray;
+  border: 0px;
+  border-radius: 6px;
+}
+.mobile-div {
+  margin-bottom: 16px;
+}
+.navbar-mobile {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 12px;
+}
